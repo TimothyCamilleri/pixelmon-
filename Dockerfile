@@ -8,6 +8,7 @@ RUN apt-get update \
   && apt-get install -y openjdk-8-jre wget
 
 # working directory for minecraft
+RUN mkdir /opt/pixelmon
 RUN mkdir /opt/pixelmon/minecraft
 
 # fetch minecraft forge version 1.12.2 jar
