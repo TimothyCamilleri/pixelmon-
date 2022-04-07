@@ -1,9 +1,9 @@
 #!/bin/bash
 if [ "$JEI" == false ]; then
-	rm -f /opt/minecraft/mods/jei.jar
+	rm -f /opt/pixelmon/minecraft/mods/jei.jar
 else 
 	echo "Set JEI environmental variable to false to disable JEI"
-	ln -s /opt/minecraft/mods-available/jei.jar /opt/minecraft/mods/jei.jar
+	ln -s /opt/pixelmon/minecraft/mods-available/jei.jar /opt/minecraft/mods/jei.jar
 fi
 
 

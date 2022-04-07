@@ -1,5 +1,5 @@
-DATA_DIR=/opt/pixelmon
-MINECRAFT_DIR=/opt/minecraft
+DATA_DIR=/opt/pixelmon/pixelmon
+MINECRAFT_DIR=/opt/pixelmon/minecraft
 
 docker run --name=pixelmon-container --rm -it -p 25565:25565 \
 -v $DATA_DIR/ops.json:$MINECRAFT_DIR/ops.json \
