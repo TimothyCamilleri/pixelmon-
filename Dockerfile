@@ -9,7 +9,7 @@ RUN apt-get update \
 
 # working directory for minecraft
 RUN mkdir /opt/pixelmon
-cd pixelmon
+RUN cd pixelmon
 RUN mkdir /opt/pixelmon/minecraft
 
 # fetch minecraft forge version 1.12.2 jar
